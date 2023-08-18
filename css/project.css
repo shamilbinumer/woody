@@ -1,0 +1,341 @@
+.first-header{
+    height: 54px;
+    background-color: #F5F5F5;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.first-hd-left{
+    padding-left: 50px;
+}
+.first-hd-left span,.first-hd-left i{
+    margin-left: 8px;
+}
+.first-hd-left i{
+    color: #AB7442;
+}
+.first-hd-left span{
+    color: black;
+}
+.first-hd-right{
+    padding-right: 50px;
+}
+.first-hd-right span{
+    margin-left: 8px;
+    margin-right: 12px;
+    color: black;
+}
+.first-hd-right i{
+    margin-right: 0px;
+    color: #AB7442;
+}
+#social{
+    border: 1px solid white;
+    background-color: white;
+    padding: 10px;
+}
+.navigation{
+    display: flex;
+    /* background-color: #AB7442; */
+    height: 80px;
+    /* align-items: center; */
+}
+.nav-left{
+    /* background-color: red; */
+    height: 70px;
+    width: 50%;
+}
+.nav-center{
+    width: 39%;
+    /* background-color: blue; */
+    height: 60px;
+}
+.nav-center a:hover{
+    color: #AB7442 !important;
+}
+.nav-left h2{
+    font-weight: 700;
+    margin-top: 18px;
+    padding-left: 40px;
+    color: #AB7442;
+}
+#prjct{
+    color: #AB7442;
+}
+.nav-center li{
+    margin-right: 20px;
+    font-size: 17px;
+}
+.nav-center i{
+    margin-left: 6px;
+}
+#get-qt{
+    background-color: #AB7442;
+    color: white;
+    /* padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+    padding-right: 20px; */
+    padding: 25px;
+}
+.nav-center a{
+    padding-top: 18px;
+}
+.nav-right{
+    width: 11%;
+    background-color: #AB7442;
+    padding: 25px;
+}
+.nav-right a{
+    text-decoration: none;
+    color: white;
+    font-size: 17px;
+}
+
+.nav-right i{
+    margin-left: 2px;
+}
+.banner{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.615),rgba(0, 0, 0, 0.61)),url(../images/carousel-1.jpg);
+    height: 300px;
+    background-size: cover;
+}
+.banner h1{
+    font-size: 60px;
+    font-weight: 800;
+    padding-top: 6%;
+    padding-left: 5%;
+    color: white;
+}
+.banner-links{
+    margin-left: 5%;
+}
+.banner-links a{
+    text-decoration: none;
+    color: white; 
+}
+.prjct-head-nav{
+    text-align: center;
+    margin-top: 80px;
+}
+.our-projects h1{
+    font-size: 50px;
+    font-weight: 700;
+}
+.project-nav{
+    margin-top:30px ;
+}
+.project-nav a{
+    text-decoration: none;
+    color: black;
+    margin-right: 30px;
+    font-size: 18px;
+}
+.all{
+    color: #AB7442;
+    border-bottom: 2px solid #AB7442;
+}
+.our-projects .card{
+    width: 450px;
+    background-color: #F5F5F5;
+    border: 5px solid #eaeaea;
+    padding-bottom: 20px;
+}
+.our-projects img{
+    transition: 0.5s;
+}
+.our-projects img:hover{
+    transform: scale(1.1);
+    flex: 1;
+}
+.prjct-card-text{
+    color: #AB7442;
+    margin-left: 5%;
+    padding-top: 20px;
+}
+.prjct-card-para{
+    font-size: 20px;
+    font-weight: 700;
+    width: 80%;
+    margin-left: 5%;
+}
+.project-lists{
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    margin-top: 50px;
+}
+.footer{
+    margin-top: 70px;
+    width: 100%;
+    height: auto;
+    background-color: #2b2a2a;
+    /* background-color: rgb(170, 132, 132); */
+}
+.footer .container{
+    display: flex;
+}
+.footer-first,.footer-sec,.footer-third,.footer-four{
+    width: 25%;
+}
+.footer h4{
+    font-weight: 700;
+    margin-top: 90px;
+    margin-bottom: 20px;
+    color: white;
+}
+.footer-first i,.footer-sec i,.footer-third i{
+    margin-right: 10px;
+}
+.footer-first div,.footer-sec div,.footer-third div,.footer-four div{
+    margin-bottom: 10px;
+    color: white;
+    font-weight: 500;
+    transition: .5s;
+}
+.footer-sec div:hover,.footer-third div:hover{
+    letter-spacing: 1px;
+    color: #AB7442;
+}
+#footer-social-link{
+    color: white;
+    padding: 9px;
+    border: 1px solid white;
+    margin-top: 10px;
+    transition: .5s;
+}
+#footer-social-link:hover{
+    background-color: white;
+    color: #AB7442;
+}
+.footer-sec i,.footer-third i{
+    font-weight: 700;
+}
+.footer-four input{
+    padding: 13px;
+    border: none;
+}
+.footer-four a{
+    text-decoration: none;
+    color: white;
+    background-color: #AB7442;
+    padding: 10px;
+    padding-top: 9.5px;
+    padding-bottom: 10.5px;
+    border: 4px solid rgb(255, 255, 255);
+}
+.cpy-rgt{
+    width: 100%;
+    height: auto;
+    padding-bottom: 20px;
+    background-color: #2b2a2a;
+}
+.just-line{
+    width: 80%;
+    border-bottom: 1px solid rgb(63, 63, 63);
+    margin: auto;
+    padding-top: 50px;
+}
+.cpy-rgt-text{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+.cpy-rgt div{
+    color: white;
+}
+.cpy-rgt-text span{
+    border-bottom: 1px solid white;
+}
+.cpy-rgt-text span:hover{
+    color: #AB7442;
+}
+@media(min-width:300px) and (max-width:575.98px){
+    .first-header{
+        display: none;
+    }
+    .nav-right{
+        display: none;
+    }
+    .nav-left{
+        width: 50%;
+    }
+    .nav-center{
+        width: 50%;
+    }
+    #left-arrow,#right-arrow{
+        border: none;
+    }
+    .banner h1{
+        font-size: 40px;
+        padding-top: 30%;
+    }
+    .our-projects h1{
+        font-size: 30px;
+    }
+    .project-nav a{
+        font-size: 11px;
+    }
+    .our-projects .card{
+        width: 100%;
+        padding-bottom: 10px;
+        margin-top: 20px;
+    }
+    .our-projects img{
+        transition: 0.5s;
+    }
+    .prjct-card-text{
+        font-size: 25px;
+    }
+    .prjct-card-para{
+        font-size: 10px;
+    }
+    .project-lists{
+        display: flex;
+        display: inline;
+    }
+    .footer .container{
+        display: inline;
+    }
+    .footer-first,.footer-sec,.footer-third,.footer-four{
+        width: 100%;
+        padding-left: 20px;
+        margin-top: 30px;
+    }
+    .footer h4{
+        font-weight: 700;
+        margin-top: 0px;
+        margin-bottom: 20px;
+        color: white;
+    }
+    .footer-first i,.footer-sec i,.footer-third i{
+        margin-right: 10px;
+    }
+    .footer-four input{
+       padding-top: 5px;
+       padding-bottom: 5px;
+       padding-left: 10px;
+        border: none;
+    }
+    .footer-four a{
+        padding: 2px;
+        font-size: 12px;
+        padding-top: 6.1px;
+        padding-bottom: 3.3px;
+    }
+    .cpy-rgt-text{
+        display: flex;
+        display: inline;
+        text-align: center;
+        margin-top: 10px;
+        font-size: 10px;
+    }
+    .cpy-rgt div{
+        color: white;
+    }
+    .cpy-rgt-text span{
+        border-bottom: 1px solid white;
+    }
+}
